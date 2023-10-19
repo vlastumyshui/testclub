@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>задание 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="h-100 d-flex flex-column justify-content-between bg-black">
+<main class="p-5">
+    <div class="container mx-auto d-flex align-items-center justify-content-center">
+        <form id="mainForm" class="border bg-dark p-3 border border-1 rounded-4 text-white">
+            <div>
+                <label for="result"></label><input class="form-control mb-2 border border-1 border-dark border-opacity-50 rounded-2" id="result" disabled>
+            </div>
+            <div class="mb-1">
+                <label for="select">Услуга</label>
+                <select class="form-select" id="select">
+                    <option value="0">ваш товар</option>
+                    <option value="1">ваш товар</option>
+                    <option value="2">ваш товар</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Count" class="form-label">Кол-во</label>
+                <input type="text" class="form-control" id="Count" value="1">
+            </div>
+            <div id="radios">
+                <div class="d-flex mb-3 justify-content-around" id="radio">
+                    <label><input type="radio" name="radio" value="r" checked>ваша кнопка</label>
+                    <label><input type="radio" name="radio" value="r1">ваша кнопка</label>
+                    <label><input type="radio" name="radio" value="r2">ваша кнопка</label>
+                </div>
+            </div>
+            <div class="justify-content-start mx-4" id="checkD">
+                <label for="checkbox">ваш чекбокс</label>
+                <label class="m-1"><input class="w-100" type="checkbox" id="checkbox"></label>
+            </div>
+        </form>
+    </div>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
